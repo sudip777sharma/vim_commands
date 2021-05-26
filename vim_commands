@@ -1,0 +1,65 @@
+// q- quit vim
+// q!- quit vim without saving
+
+// h- move left
+// j- move down
+// k- move up
+// l- move right
+
+// I- insert mode at the begining of the line
+// A- insert mode at the end of the line
+// a- insert mode after current character
+// i- insert mode before current character
+// o- insert mode at the next line
+// O- insert mode at the previous line
+
+// r- replace the character with what you prefer where the cursor is
+// R- replace the character till you want to replace
+// w- skip to next word with considering word is delineated by puntuation
+// W- skip to next word with considering word is delineated by space 
+// b- move to the starting of the previous word
+// e- move to the end of the word considering word is delineated by punctuation
+// E- move to the end of the word considering word is delineated by space
+
+// c- change whatever we specify(using a modifiers) example- pressing c followed by w it will delete next word
+// C- delete to the end of the line from the position of the cursor and cursor remains in the same position where it was
+// cc- change complete line by deleting the line 
+
+// x- delete forward character
+// X- delete character in backword direction
+// d- delete what we specify means where the cursor is present want(used as cut also)
+// D- delete to the end of the line from position of the cursor and cursor goes to the previous character of the line(used as cut also)
+// dd- on pressing d twice delete the line on which the cursor is present on the cursor goes on starting of the next(below) line
+
+// y- yanks or copy whatever we specify(using a modifier)
+// Y- yanks or copy entire current line
+// p- paste after the current cursor position 
+// P- paste before the current cursor position
+
+// n- denoting a integer
+// gg- to move to the starting of the document
+// G- to move to the end of the document
+// nG or ngg- to move to line number 'n'
+// nk- to move n line up
+// nj- to move n line down
+// nh- to move n character left
+// nl- to move n character right  
+
+// u- undo
+// ctrl+r- redo
+
+// v- enter in visual mode and select character by character or word by word and change whatever(using a modifiers)
+// V- enter in visual mode and select a line
+
+// y+$- copy from cursor to the end of the line
+// d+$- cut from cursor to the end of the 
+
+#incude<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int i = 0;
+	cout<<"sudeep sharma"<<endl;
+	return 0;
+}
